@@ -1,0 +1,40 @@
+
+pi@devAsh:~/Voyager-Zone-Controller/logs $ nslookup www.googleapis.com
+Server:         127.0.0.1
+Address:        127.0.0.1#53
+
+Non-authoritative answer:
+Name:   www.googleapis.com
+Address: 172.217.163.106
+Name:   www.googleapis.com
+Address: 172.217.163.74
+Name:   www.googleapis.com
+Address: 172.217.163.42
+Name:   www.googleapis.com
+Address: 216.58.196.170
+Name:   www.googleapis.com
+Address: 172.217.160.138
+Name:   www.googleapis.com
+Address: 172.217.31.202
+Name:   www.googleapis.com
+Address: 172.217.167.138
+Name:   www.googleapis.com
+Address: 216.58.197.74
+Name:   www.googleapis.com
+Address: 216.58.200.138
+Name:   www.googleapis.com
+Address: 172.217.166.106
+Name:   www.googleapis.com
+Address: 172.217.163.202
+Name:   www.googleapis.com
+Address: 172.217.163.170
+
+
+
+pi@devAsh:~/Voyager-Zone-Controller/logs $ nslookup oauth2.googleapis.com
+Server:         127.0.0.1
+Address:        127.0.0.1#53
+
+Non-authoritative answer:
+Name:   oauth2.googleapis.com
+Address: 172.217.163.202

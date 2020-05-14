@@ -1,0 +1,28 @@
+interface=wlan0       # Use interface wlan0
+listen-address=192.168.220.1   # Specify the address to listen on
+bind-interfaces      # Bind to the interface
+# REMOVE server=8.8.8.8
+domain-needed        # Don't forward short names
+bogus-priv           # Drop the non-routed address spaces.
+dhcp-range=192.168.220.50,192.168.220.150,12h # IP range and lease time
+
+# REMOVE server=8.8.8.8
+
+# NEW ITEMS
+# Don't resolve any DNS, Blacklist all
+no-resolv
+# Log all queries to /var/log/daemon.log - optional but helpful
+log-queries
+
+# Whitelist domains to DNS lookup
+# uses opendns nameservers, substitute your choice
+# google nameservers are 8.8.8.8 and 8.8.4.4
+# opendns nameservers are 208.67.222.222 and 208.67.220.220
+
+server=/www.googleapis.com/8.8.8.8
+server=/oauth2.googleapis.com/8.8.8.8
+
+# Direct all other domains to
+address=/#/127.0.0.1
+
+
