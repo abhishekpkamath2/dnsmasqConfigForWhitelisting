@@ -1,7 +1,7 @@
 This repository is for the config file for dnsmasq to filter the queries and allow only the whitelisted queries.
 To use the functionality of this file, first you must download and install dnsmasq by using sudo apt-get install dnsmasq.
 Then enable and run the dnsmasq using sudo systemctl enable dnsmasq and sudo systemctl start dnsmasq.
-make a copy of dnsmasq.conf using cp /etc/dnsmasq.conf /etc/dnsmasq.conf.unlock to be used when the machine needs updating.
+make a copy of dnsmasq.conf using cp /etc/dnsmasq.conf /etc/dnsmasq.conf.unlock  which is to be used when the machine needs updating.
 Move and replace the dnsmasq.conf in /etc/ with the one from the repo.
 or append the config file to the dnsmasq.conf.
 make a copy of the this config file too using cp /etc/dnsmasq.conf /etc/dnsmasq.conf.lock or any name you like. Naming it 
